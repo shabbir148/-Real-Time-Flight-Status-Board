@@ -28,8 +28,8 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/flight-status-board.git
-   cd flight-status-board
+   git clone https://github.com/shabbir148/-Real-Time-Flight-Status-Board.git
+   cd -Real-Time-Flight-Status-Board
    ```
 
 2. Install dependencies:
@@ -95,7 +95,7 @@ The main structure of the application is as follows:
 ```
 /src
 │
-├── /components      # React components (FlightBoard, FlightDetails, Spinner)
+├── /components      # React components (FlightStatus, FlightDetails)
 ├── /hooks           # Custom hooks for fetching flight data using react-query
 ├── /__tests__       # Unit and integration tests for the components
 └── App.tsx          # Main app component
